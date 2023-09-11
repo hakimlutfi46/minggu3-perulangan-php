@@ -8,3 +8,13 @@ $salaries = array(
 echo "Salary of Mohammad is " . $salaries["mohammad"] . "<br>";
 echo "Salary of Qadir is " . $salaries["qadir"] . "<br>";
 echo "Salary of Zara is " . $salaries["zara"] . "<br>";
+
+echo "<br>";
+
+$salaries["mohammad"] = "high";
+$salaries["qadir"] = "medium";
+$salaries["zara"] = "low";
+
+echo "Salary of Mohammad is " . $salaries["mohammad"] . "<br>";
+echo "Salary of Qadir is " . $salaries["qadir"] . "<br>";
+echo "Salary of Zara is " . $salaries["zara"] . "<br>";
