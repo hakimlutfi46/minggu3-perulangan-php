@@ -2,7 +2,7 @@
 $num1 = 150;
 $num2 = 100;
 
-function getBig($a, $b)
+function getBigNum($a, $b)
 {
     if ($a > $b) {
         echo "Nilai " . $a . " lebih besar dari nilai " . $b;
@@ -11,4 +11,4 @@ function getBig($a, $b)
     }
 }
 
-echo getBig($num1, $num2);
+echo getBigNum($num1, $num2);
