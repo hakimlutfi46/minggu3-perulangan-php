@@ -11,9 +11,9 @@ function gagal()
     echo "MAAF ANDA GAGAL";
 };
 
-$nilai = 90;
+$value = 90;
 
-if ($nilai >= 75) {
+if ($value >= 75) {
     berhasil();
 } else {
     gagal();
@@ -24,6 +24,19 @@ echo "FUNGSI DENGAN PARAMETER <br>";
 
 function jumlah($a, $b)
 {
-    $nilai1 = 10;
-    $nilai2 = 15;
+    return $a + $b;
 }
+
+$nilai1 = 10;
+$nilai2 = 15;
+
+echo jumlah($nilai1, $nilai2);
+echo "<br>";
+
+echo "FUNGSI BAWAAN <br>";
+$sekarang = getdate();
+
+print_r($sekarang);
+
+echo "<br>";
+echo "Sekarang Tanggal :" . $sekarang["mday"];
